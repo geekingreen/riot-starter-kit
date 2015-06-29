@@ -1,0 +1,6 @@
+{
+  "name": "riot-test",
+  "dependencies": {
+    "riot": "~2.2.0"
+  }
+}
