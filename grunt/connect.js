@@ -1,3 +1,5 @@
+var serveStatic = require('serve-static');
+
 module.exports = {
 	server: {
 		options: {
@@ -6,7 +8,7 @@ module.exports = {
 			middleware: function(connect, options) {
 				return [
 					require('connect-livereload')(),
-					connect.static('tmp/')
+					serveStatic('tmp/')
 				];
 			}
  		}
