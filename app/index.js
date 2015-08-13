@@ -1,3 +1,3 @@
 (function() {
-	riot.mount('*');
+    riot.mount('*');
 })();

@@ -1,3 +1,3 @@
 module.exports = {
-	dev: ['tmp/', 'dist/']
+    dev: ['tmp/', 'dist/']
 };
